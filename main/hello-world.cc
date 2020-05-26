@@ -29,4 +29,6 @@ int main(){
     t2.join();
     t3.join();
     std::cout<<i<<std::endl;
+
+    //output: 2|3|4|9
 }
