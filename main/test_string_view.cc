@@ -12,11 +12,14 @@ std::string getString() {
 }
 
 void acceptStringView(absl::string_view val){
-    std::cout << "show case: " << val;
+    std::cout << "show case: " << val << "\n";
 }
 
 int main() {
-  std::string param{"hehe"};
+  std::string param{"hehe2"};
   std::string issuer{"alobaba"};
   acceptStringView(getString());
+
+  std::cout << "show case 2: " << issuer;
+
 }
