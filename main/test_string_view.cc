@@ -12,7 +12,7 @@ std::string getString() {
 }
 
 void acceptStringView(absl::string_view val){
-    std::cout << "auto create" << val;
+    std::cout << "show case: " << val;
 }
 
 int main() {
