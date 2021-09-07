@@ -15,3 +15,8 @@ cc_binary(
     srcs = ["test_string_view.cc"],
     deps = ["@com_google_absl//absl/strings"],
 )
+
+cc_binary(
+    name = "test_string_reference",
+    srcs = ["test_string_reference.cc"],
+)
